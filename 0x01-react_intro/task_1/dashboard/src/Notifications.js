@@ -5,7 +5,7 @@ function Notifications() {
     return (
         <>
         <div className='Notifications'>
-            <p>Here is the liast of notifications</p>
+            <p>Here is the list of notifications</p>
         </div>
         </>
     );
