@@ -1,4 +1,5 @@
 import './App.css';
+import { getFullYear, getFooterCopy } from './utils';
 import Holberton_Logo from './Holberton_Logo.jpg'; // Assuming this is your image file
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <button>OK</button>
       </div>
       <div className="App-footer">
-        <p>Copyright 2020 - Holberton School</p>
+        <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
       </div>
     </div>
   );
